@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>BMI Calculator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="./BMI Calculator_files/stylesheet.css">
+	<link href="./BMI Calculator_files/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    	<div class="panel">
+    		<h1 class="text-center">CHECK YOUR BMI</h1>
+    		
+    			<p id="introText" class="text-center">Enter your weight and height below to get result </p>
+    			
+    			<form>
+    				<div id="weightInput">
+    					<p> weight in here (KG)</p>
+    		     		<input id="weight" type="number" pattern="[0-9]*" name="a">
+    				</div>
+    				<div id="heightInput">
+    					<p> height in here (CM)</p>
+	    				 <input id="height" type="number" pattern="[0-9]*" name="b"> 
+    				</div>
+    		     <button type="button" class="btn" onclick="calculate()">Calculate BMI</button>
+    		</form>
+    		<div id="results" class="text-center">Your BMI is 11.1 which means you are Underweight</div>
+    	</div>
+    </div>
+<br>
+<br>
+	<div id="table">
+		<br><table>
+			<caption>BMI INDEX:</caption>
+
+			<tbody><tr>
+				<th>Underweight</th>
+				<th>Healthy</th>
+				<th>Overweight</th>
+				<th>Obese</th>
+			</tr>
+			<tr>
+				<td>Below 18.5</td>
+				<td>18.5 - 24.9</td>
+				<td>25.0 - 29.9 </td>
+				<td>30.0 and above</td>
+
+			</tr>
+		</tbody></table>
+	</div>
+	<script src="./BMI Calculator_files/main.js.download"></script>
+
+</body></html>
