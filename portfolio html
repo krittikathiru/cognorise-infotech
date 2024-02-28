@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Krittika  Portfolio  </title>
+ 
+    <link rel="stylesheet" href="kr.css">
+    <link rel="stylesheet" media="screen and (max-width: 821px)" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav id="navbar" class="flex s-around bg-color">
+        <div class="left-nav">
+         <h2 class="t-white">KRITTIKA T</h2>
+        </div>
+        <div class="right-nav">
+            <ul class="flex">
+                <li><a href="#home" class="t-white roboto">Home</a></li>
+                <li><a href="#about" class="t-white roboto">About Me</a></li>
+                <li><a href="#skills" class="t-white roboto">Skills</a></li>
+                <li><a href="#services" class="t-white roboto">services</a></li>
+                <li><a href="#projects" class="t-white roboto">Projects</a></li>
+                <li><a href="#Experience" class="t-white roboto">Experience</a></li>
+               <li><a href="#Achivements" class="t-white roboto">Achivements</a></li>
+            </ul>
+        </div>
+    </nav>
+
+     <!-- Bottom Navigator -->
+    <section id="bottom">
+        <div class="bottom-nav flex s-center items-center">
+            <ul class="flex s-around items-center">
+                <a href="#home">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-house"></i></li>
+                </a>
+                <a href="#about">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-user"></i></li>
+                </a>
+                <a href="#skills">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-code"></i></li>
+                </a>
+                <a href="#services">
+                    <li class="bottomo-hover flex s-center items-center">
+                        <i class="fa-solid fa-rocket"></i>
+               <a href="#Experience">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-house"></i></li>
+                </a>
+               <a href="#Achivements">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-house"></i></li>
+                </a>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Home Section -->
+    <section id="home" class="flex s-around sw-80 m-auto">
+        <div class="home-left flex items-center">
+            <div class="home-content">
+<center>
+                <h2 class="poppinss">Hi, I'm</h2>
+                <h3 class="t-white">Krittika T</h3>
+                <h4 class="poppinss">Computer science student</h4>
+                <a href="#" target="_blank"><button
+                        class="btn poppins">Resume</button></a>
+                <a class="btn live poppins" id="hireme" href="https://www.linkedin.com/in/krittika-thiru-1a0b2a292/"
+                    target="_blank">Let's Talk</a>
+            </div>
+</center>
+        </div>
+        <div class="home-right flex s-center items-center">
+            <div class="circle flex s-center items-center" id="mainImage">
+                <!-- Here in src replace the given link with your image link -->
+                <img src="" alt="my image">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1 class="t-center my-2 t-white f-2">About Me</h1>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <!-- Here in src replade the given link with your secondary image link -->
+                <img src="./Images/secondary.jpg" alt="" style="width: 50%;">
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                   
+                    <p class="t-white poppins">I'm krittika, a college adventurer with a passion for pixels and a penchant for problem-solving. Whether I'm diving into the code ocean or exploring the vast landscapes of academia, I bring boundless curiosity and a dash of creativity to the table. As a perpetual student of both bytes and books, I'm on a mission to transform challenges into opportunities and turn the ordinary into extraordinary. Join me on this rollercoaster ride of learning, where every line of code and every page of my college journey adds a new layer to the masterpiece I'm crafting!" <br>
+                        Who is committed to study web development. Mindset to fullfill the life with
+                        wonderful memories and knowledge.</p>
+                    <a class="btn live poppins" id="hireme"
+                        href="https://www.linkedin.com/in/krittika-thiru-1a0b2a292/">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+
+    <!-- Services Section -->
+    <section id="services">
+        <h1 class=" t-center my-2 t-white f-2">Services</h1>
+        <div class="services-container flex s-center">
+            <div class="test-item flex f-col items-center">
+                <img src="./Images//developer.png" alt="">
+                <h1 class="t-white poppins">Web Development</h1>
+                <p class="t-white poppins">Web Development is envolving everywhere. Every startup and every bussines
+                    have their own websites. As my passion I will help you to build your clean and fast website for your
+                    startup or your bussines.</p>
+            </div>
+            <div class="test-item flex f-col items-center">
+                <img src="./Images//social-media-management.png" alt="">
+                <h1 class="t-white poppins">Social Media Management</h1>
+                <p class="t-white poppins">Social Media is the power of future. So I'll help in developing brand
+                    awareness thow managing your social media handles and will to increase customer loyalty.</p>
+            </div>
+            <div class="test-item flex f-col items-center">
+                <img src="./Images//startup.png" alt="">
+                <h1 class="t-white poppins">Growth Strategies</h1>
+                <p class="t-white poppins">As a web developer also I will help your brand to grow up . I will provide
+                    the growth strategies for your brand. And also help in searching techniques for your brand.</p>
+            </div>
+
+        </div>
+    </section>
+<section id="skills">
+        <h1 class="t-center my-2 t-white f-2">Skills</h1>
+        <div class="services-container flex s-around h-50"">
+        <div class=" skills-left flex s-center items-center">
+            <img src="/Images/skills.png" alt="">
+        </div>
+
+        <div class="skills-right flex items-center">
+            <div class="skillss-container">
+                <div class="html bar p-relative"><span class="bar-content left t-white">HTML</span><span
+                        class="bar-content right-skills t-white">90%</span></div>
+                <div class="css bar p-relative"><span class="bar-content left t-white">CSS</span><span
+                        class="bar-content right-skills t-white">80%</span></div>
+                <div class="js bar p-relative"><span class="bar-content left t-white">JavaScript</span><span
+                        class="bar-content right-skills t-white">75%</span></div>
+                <div class="bootstrap bar p-relative"><span class="bar-content left t-white">Data structure</span><span
+                        class="bar-content right-skills t-white">80%</span></div>
+                <div class="reactjs bar p-relative"><span class="bar-content left t-white">cloud computing</span><span
+                        class="bar-content right-skills t-white">60%</span></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+     <!-- Project Section -->
+    <section id="services">
+        <h1 class=" t-center my-2 t-white f-2">Project</h1>
+        <div class="services-container flex s-center">
+            <div class="test-item flex f-col items-center">
+           
+                <h1 class="t-white poppins">Smart alarm clock</h1>
+                <p class="t-white poppins">this project is about how the smart alarm clock works and how it is useful in day to day life
+and demonstrate with new ideas and inventions.</p>
+            </div>
+            <div class="test-item flex f-col items-center">
+              
+                <h1 class="t-white poppins">Facial recognisation to Facial disease</h1>
+                <p class="t-white poppins">This my main project did this year is all about using the developing technique deep learning algorithm
+identifying the illness through the facial features.</p>
+            </div>
+            <div class="test-item flex f-col items-center">
+               
+                <h1 class="t-white poppins">PDF viewer app</h1>
+                <p class="t-white poppins">This about developing an application using java programming and techquies to make the our own pdf viewer app
+using android studio.</p>
+            </div>
+
+        </div>
+    </section>
+
+ 
+
+ <!-- Experience Section -->
+    <section id="services">
+        <h1 class=" t-center my-2 t-white f-2">Experience</h1>
+        <div class="services-container flex s-center">
+            <div class="test-item flex f-col items-center">   
+                <p class="t-white poppins">In my journey at Saveetha School of Engineering, specializing in computer science, I've delved deep into various realms of technology. From mastering the intricacies of web development to delving into programming and cyber security, each skill acquired has been a stepping stone in my growth. Through dedication and countless hours of learning, I've transformed into a proficient individual capable of tackling diverse challenges. As I continue to expand my horizons, I am fueled by a passion for innovation and a drive to make meaningful contributions in the ever-evolving landscape of technology.</p>
+            </div>
+            
+    </section>
+
+ <!--Achivements Section -->
+    <section id="services">
+        <h1 class=" t-center my-2 t-white f-2">Achivements</h1>
+        <div class="services-container flex s-center">
+            <div class="test-item flex f-col items-center">   
+                <p class="t-white poppins">certified in CAMBRIDGE LINGUASKILLS EXAM with CEFR level B1
+certified in Online college management system using HTML,MYSQL at CODE BINDING
+received certificate for 2nd prize in CONNEXION in TECHSSE -2022 symposium.</p>
+            </div>
+            
+    </section>
+ 
+    
+    <!-- Contact Me Section -->
+    <section id="contact" class="m-b-1">
+        <h1 class=" t-center my-2 t-white f-2">Contact Me</h1>
+        <div class="contact-container flex s-around items-centers">
+            <div class="form" id="contactForm">
+                <form action="" id="contactFrom">
+                    <div class="name form-div">
+                        <input type="text" name="name" id="name" class="poppins" placeholder="Enter Your Name">
+                    </div>
+                    <div class="email form-div">
+                        <input type="email" name="email" id="email" class="poppins" placeholder="Enter Your Email"
+                            required>
+                    </div>
+                    <div class="phone form-div">
+                        <input type="phone" name="phone" id="phone" class="poppins" placeholder="Enter Your Phone"
+                            required>
+                    </div>
+                    <div class="textarea form-div">
+                        <textarea name="text" id="textarea" cols="30" rows="10" class="poppins"
+                            placeholder="Enter Messages"></textarea>
+                    </div>
+                    <button type="submit" class="btn poppins" id="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <ul class="flex s-center w-80 m-auto my-2 res">
+            <li><a href="#home" class="poppinss">Home</a></li>
+            <li><a href="#about" class="poppinss">About</a></li>
+            <li><a href="#skills" class="poppinss">Skills</a></li>
+            <li><a href="#projects" class="poppinss">Projects</a></li>
+            <li><a href="#portfolio" class="poppinss">Portfolio</a></li>
+        </ul>
+
+    </footer>
+
+    <div id="scroll-top" onclick="scrolltop()">
+        <span><i class="fa-solid fa-arrow-up"></i></span>
+    </div>
+</center>
+
+</body>
+<script src="/script.js"></script>
+
+</html>
