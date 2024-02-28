@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///C:/Users/kritt/OneDrive/Documents/lex%20program/count.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head><body><center>
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="./Countdown Timer_files/styles.css">
+
+
+  <div class="container">
+    <h1>COUNTDOWN TIMER</h1>
+    <div class="form">
+<br>
+      <label for="dateInput">Enter countdown target:</label>
+      <input type="datetime-local" id="dateInput">
+      <button onclick="setCountdown()">Set Countdown</button>
+    </div>
+    <div class="countdown">
+      <h2 id="timer">Countdown will start once target is set</h2>
+    </div>
+  </div>
+</center>
+  <script src="./Countdown Timer_files/script.js.download"></script>
+
+
+</body></html>
